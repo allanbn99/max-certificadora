@@ -1,0 +1,438 @@
+/* GLOBAL */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.button_1 {
+	border: 5px solid white;
+	padding: 15px;
+	background-color: none;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.button_1:hover {
+	cursor: pointer;
+	background-color: white;
+	color: #e92727;
+}
+
+hr {
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 2px solid #e92727;
+}
+
+/* HEADER */
+header {
+	position: fixed;
+	height: 80px;
+	overflow: hidden;
+	top: 0;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.85);
+	border-bottom: 3px solid #e92727;
+	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+}
+
+header nav .header-logo {
+	float: left;
+}
+
+header nav .header-logo img {
+	width: 100px;
+}
+
+header nav .menu-btn {
+	display: none;
+	position: absolute;
+	right: 75px;
+	top: 0px;
+	padding: 24px;
+	background-color: #e92727;
+}
+
+header nav .menu-btn span {
+	display: block;
+	margin: 6px;
+	width: 30px;
+	height: 3px;
+	background-color: #fff;
+}
+
+header nav .header-menu {
+	position: absolute;
+	right: 120px;
+	top: 28px;
+}
+
+header nav .header-menu a {
+	color: #181818;
+	text-decoration: none;
+	margin-left: 15px;
+	text-transform: uppercase;
+}
+
+header nav .header-menu a:hover {
+	color: #e92727;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+header .facebook-icon {
+	float: right;
+	font-size: 32px;
+	margin-top: 5px;
+}
+
+/* INICIAL */
+#inicial {
+	background: url(../img/section1image.jpg) no-repeat;
+	height: 500px;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#inicial h1 {
+	margin-top: 70px;
+	font-size: 48px;
+	color: white;
+	text-shadow: 2px 2px 15px black;
+}
+
+#inicial .align-text {
+	margin-top: 100px;
+	width: 50%;
+	float: left;
+	color: white;
+}
+
+#inicial .align-text p {
+	margin-top: 30px;
+	text-shadow: 2px 2px 15px black;
+}
+
+#inicial a {
+	text-decoration: none;
+	float: left;
+	margin-top: 30px;
+}
+
+/* SOBRE NÓS */
+#sobre-nos {
+	text-align: center;
+}
+
+#sobre-nos h1 {
+	margin-top: 30px;
+	font-size: 32px;
+}
+
+#sobre-nos .align-left {
+	float: left;
+	width: 50%;
+	margin-top: 30px;
+}
+
+#sobre-nos .align-right {
+	float: right;
+	text-align: left;
+	width: 50%;
+}
+
+#sobre-nos .align-right p {
+	margin-top: 50px;
+}
+
+/* CERTIFICADO DIGITAL */
+#cert-dig {
+	margin-top: 30px;
+	padding-bottom: 50px;
+	background: url(../img/cert-dig-foto.png) no-repeat;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#cert-dig h1 {
+	color: white;
+	margin-top: 30px;
+	font-size: 32px;
+	text-shadow: 2px 2px 15px black;
+	text-align: center;
+}
+
+#cert-dig hr {
+	border-color: white;
+	box-shadow: 2px 2px 15px black;
+}
+
+#cert-dig .desc-cert {
+	margin-top: 30px;
+	float: left;
+	width: 40%;
+	padding: 15px;
+	margin-left: 50px;
+	text-align: center;
+	border: 8px solid white;
+	text-align: center;
+	box-shadow: 2px 2px 15px black;
+}
+
+#cert-dig .desc-cert p {
+	margin-top: 10px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+/* DÚVIDAS E SUPORTE */
+#duv-e-sup h1 {
+	margin-top: 30px;
+	font-size: 32px;
+	text-align: center;
+}
+
+#duv-e-sup p {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#duv-e-sup .links {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	width: 33%;
+	text-align: center;
+	float: left;
+}
+
+#duv-e-sup .links hr {
+	width: 25px;
+}
+
+#duv-e-sup .links ul li {
+	list-style-type: none;
+}
+
+#duv-e-sup .links a {
+	text-decoration: none;
+	color: black;
+}
+
+#duv-e-sup .links a h3 {
+	margin-top: 15px;
+}
+
+#duv-e-sup .links .collapse {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#duv-e-sup .links .collapse a {
+	text-decoration: underline;
+}
+
+#duv-e-sup .links .collapse a:hover {
+	font-weight: bold;
+}
+
+#duv-e-sup .links .collapse a img {
+	margin-bottom: 10px;
+}
+
+/* CONTATOS */
+#contatos {
+	background-color: black;
+	padding-bottom: 30px;
+}
+
+#contatos h1 {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 32px;
+	color: white;
+}
+
+#contatos hr {
+	border-color: white;
+}
+
+#contatos .align-left {
+	float: left;
+	width: 50%;
+	margin-top: 30px;
+}
+
+#contatos .align-right {
+	float: right;
+	width: 50%;
+	margin-top: 30px;
+}
+
+#contatos .desc-cont {
+	float: left;
+	margin-left: 20%;
+	margin-bottom: 15px;
+}
+
+#contatos .desc-cont h3 {
+	float: left;
+	color: white;
+	font-size: 24px;
+	margin-top: 13px;
+	margin-left: 20px;
+}
+
+#contatos .desc-cont i {
+	color: white;
+	font-size: 32px;
+	border: 5px solid white;
+	padding: 10px 15px;
+	float: left;
+}
+
+/* FOOTER */
+footer {
+	border-top: 3px solid white;
+	background-color: black;
+	color: white;
+	padding: 30px 0;
+}
+
+footer .align-left {
+	width: 50%;
+	float: left;
+}
+
+footer .align-right {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+
+	header {
+		overflow: visible;
+	}
+
+	header nav .header-menu {
+		width: 100%;
+		right: 0;
+		top: 83px;
+		background-color: rgba(232, 38, 38, 0.9);
+		overflow: hidden;
+		max-height: 0;
+	}
+
+	header nav .header-menu a {
+		display: block;
+		text-align: center;
+		padding: 15px;
+		color: white;
+	}
+
+	header nav .header-menu a:hover {
+		font-weight: bold;
+		color: white;
+		transition: 0.3s;
+	}
+
+	header nav .menu-btn {
+		display: block;
+		cursor: pointer;
+	}
+
+	header nav .show {
+		max-height: 500px;
+	}
+
+	/* INICIAL */
+	#inicial .align-text {
+		width: 100%;
+		text-align: center;
+	}
+
+	#inicial h1 {
+		margin-top: 0;
+	}
+
+	#inicial a {
+		width: 87%;
+		margin-top: 30px;
+	}
+
+	/* SOBRE NÓS */
+	#sobre-nos .align-left {
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	#sobre-nos .align-right {
+		width: 100%;
+	}
+
+	#sobre-nos .align-right p {
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	/* CERTIFICADO DIGITAL */
+	#cert-dig .desc-cert {
+		width: 85%;
+		margin-left: 0;
+	}
+
+	/* DÚVIDAS E SUPORTE */
+	#duv-e-sup .links {
+		width: 100%;
+	}
+
+	/* CONTATOS */
+	#contatos .align-left {
+		width: 100%;
+	}
+
+	#contatos .align-right {
+		width: 100%;
+	}
+
+	#contatos .desc-cont {
+		margin-left: 0;
+		margin-bottom: 15px;
+	}
+
+	#contatos .desc-cont h3 {
+		font-size: 28px;
+		margin-top: 10px;
+	}
+
+	/* FOOTER */
+	footer .align-left {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	footer .align-right {
+		width: 100%;
+		text-align: center;
+	}
+
+}
